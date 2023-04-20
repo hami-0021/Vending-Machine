@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/domm">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:inputType="number"
+        android:id="@+id/cshaa"
+        android:layout_margin="75dp"
+        android:background="@drawable/rnd"
+        android:padding="15sp"
+        android:hint="Enter Amount"
+        android:textColorHint="@color/white"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:layout_below="@+id/cshaa"/>
+
+    <Button
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/button1"
+        android:id="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return" />
+
+    <Button
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/button2"
+        android:id="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chips" />
+
+    <Button
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/button3"
+        android:id="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cola" />
+
+    <Button
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/button4"
+        android:id="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water" />
+
+
+    <Button
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_below="@id/button5"
+        android:id="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coffee" />
+    <Button
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:id="@+id/button7"
+        android:layout_below="@id/button6"
+        android:layout_centerHorizontal="true"
+        android:width="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Candy" />
+
+</RelativeLayout>
